@@ -1,824 +1,1572 @@
-
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta
-    name="description"
-    content="Vishwajith L K — AI, backend, and systems engineer."
-  >
-
-  <title>Vishwajith L K — AI & Systems</title>
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-  <!-- ==================== HEADER ==================== -->
-  <header class="topbar">
-    <a class="brand" href="#home">
-      VISHWAJITH <b>L K</b>
-    </a>
-
-    <nav>
-      <a href="#work">WORK</a>
-      <a href="#experience">EXPERIENCE</a>
-      <a href="#hackathons">HACKATHONS</a>
-      <a href="#publications">PUBLICATIONS</a>
-      <a href="#gallery" id="nav-gallery">GALLERY</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-
-    <a
-      class="intern-link"
-      href="mailto:vishwajithkarthik10@gmail.com"
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#03140e">
+    <meta
+      name="description"
+      content="Vishwajith L K — AI, backend, and systems engineer. A Green Lantern inspired portfolio edition."
     >
-      OPEN TO INTERNSHIPS ↗
-    </a>
-  </header>
+    <title>Vishwajith L K — Portfolio</title>
 
-  <main id="home">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <!-- ==================== HERO ==================== -->
-    <section class="hero shell">
+  <body>
+    <div class="loader" id="site-loader" aria-hidden="true">
+      <div class="loader-stars"></div>
+      <div class="loader-orbit loader-orbit-a"></div>
+      <div class="loader-orbit loader-orbit-b"></div>
+      <div class="loader-beam"></div>
 
-      <div class="hero-copy">
-        <p class="eyebrow">
-          CHENNAI, INDIA · CSE @ SSNCE
+      <div class="flight-ring" aria-hidden="true">
+        <span></span>
+      </div>
+
+      <div class="loader-brand">
+        <span class="loader-vlk">VLK</span>
+        <i>SECTOR: CHENNAI</i>
+      </div>
+
+      <div class="loader-meter">
+        <span></span>
+      </div>
+
+      <p class="loader-caption">WILLPOWER SYSTEMS ONLINE</p>
+    </div>
+
+    <noscript>
+      <style>
+        .loader {
+          display: none !important;
+        }
+      </style>
+    </noscript>
+
+    <div class="progress-line" aria-hidden="true">
+      <span></span>
+    </div>
+
+    <header class="nav-shell">
+      <a
+        class="wordmark"
+        href="#home"
+        aria-label="Vishwajith L K home"
+      >
+        <span class="wordmark-glyph">V</span>
+        <span>VLK<span class="wordmark-dot">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="#work">WORK</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#records">HACKATHONS</a>
+        <a href="#publications">PUBLICATIONS</a>
+        <a href="#education">EDUCATION</a>
+        <a href="#gallery" id="nav-gallery">GALLERY</a>
+      </nav>
+
+      <a
+        class="nav-cta"
+        href="mailto:vishwajithkarthik10@gmail.com"
+      >
+        <span class="nav-signal"></span>
+        OPEN TO INTERNSHIPS
+      </a>
+    </header>
+
+    <main id="home">
+      <section
+        class="hero hero-comic"
+        aria-labelledby="hero-title"
+      >
+        <div class="hero-stars" aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="signal-pulse"></span>
+            CHENNAI, INDIA · CSE @ SSNCE
+          </p>
+
+          <h1 id="hero-title">
+            Build beyond<br>
+            the <em>ordinary.</em>
+          </h1>
+
+          <p class="hero-intro">
+            I'm Vishwajith. I build systems that connect models, APIs,
+            and infrastructure to solve real problems. Strong in machine
+            learning, applied AI, and system design, I take projects
+            from idea to reliable delivery.
+          </p>
+
+          <div class="hero-links">
+            <a class="primary-link" href="#work">
+              SEE WHAT I'VE BUILT <span>↘</span>
+            </a>
+
+            <a
+              class="text-link"
+              href="https://github.com/vlk-2805"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GITHUB ↗
+            </a>
+          </div>
+
+          <div class="hero-coordinates">
+            <span>
+              AI / ML<br>
+              SOFTWARE ENGINEERING
+            </span>
+
+            <span class="coord-rule"></span>
+
+            <span>
+              OPEN TO<br>
+              INTERNSHIPS
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="hero-art"
+          aria-label="Vishwajith with a luminous ring construct"
+        >
+          <div class="art-burst burst-back"></div>
+          <div class="art-burst burst-front"></div>
+
+          <svg
+            class="power-battery"
+            viewBox="0 0 400 500"
+            role="img"
+            aria-label="Glowing emerald Green Lantern power battery construct"
+          >
+            <defs>
+              <linearGradient
+                id="batteryMetal"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1"
+              >
+                <stop stop-color="#c8ffd4"/>
+                <stop offset=".22" stop-color="#55e983"/>
+                <stop offset=".52" stop-color="#126b36"/>
+                <stop offset=".76" stop-color="#8cffaa"/>
+                <stop offset="1" stop-color="#0a3e22"/>
+              </linearGradient>
+
+              <radialGradient id="batteryCore">
+                <stop stop-color="#dffff0"/>
+                <stop offset=".12" stop-color="#a6ffd0"/>
+                <stop offset=".42" stop-color="#20f184"/>
+                <stop offset=".78" stop-color="#00a94c"/>
+                <stop offset="1" stop-color="#087237"/>
+              </radialGradient>
+
+              <filter
+                id="batteryGlow"
+                x="-60%"
+                y="-60%"
+                width="220%"
+                height="220%"
+              >
+                <feGaussianBlur
+                  stdDeviation="9"
+                  result="b"
+                />
+                <feMerge>
+                  <feMergeNode in="b"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <ellipse
+              class="battery-aura"
+              cx="200"
+              cy="272"
+              rx="144"
+              ry="166"
+            />
+
+            <path
+              class="battery-handle"
+              d="M107 173V101C107 34 148 12 200 12s93 22 93 89v72"
+            />
+
+            <path
+              class="battery-handle-inner"
+              d="M122 164v-62c0-55 30-74 78-74s78 19 78 74v62"
+            />
+
+            <path
+              class="battery-cap"
+              d="M119 159h162v35H119z"
+            />
+
+            <path
+              class="battery-cap-top"
+              d="M128 151c0-11 8-18 20-18h104c12 0 20 7 20 18v12H128z"
+            />
+
+            <path
+              class="battery-body"
+              d="M106 191h188v174c0 27-19 47-45 47h-98c-26 0-45-20-45-47z"
+            />
+
+            <path
+              class="battery-base"
+              d="M126 397h148v36c0 19-13 31-32 31h-84c-19 0-32-12-32-31z"
+            />
+
+            <path
+              class="battery-foot"
+              d="M108 458h184v19c0 10-8 17-18 17H126c-10 0-18-7-18-17z"
+            />
+
+            <circle
+              class="battery-bezel-outer"
+              cx="200"
+              cy="278"
+              r="91"
+            />
+
+            <circle
+              class="battery-bezel-inner"
+              cx="200"
+              cy="278"
+              r="76"
+            />
+
+            <circle
+              class="battery-lens"
+              cx="200"
+              cy="278"
+              r="64"
+            />
+
+            <path
+              class="battery-emblem"
+              d="M160 250h80v14h-31v12c19 4 32 19 32 38 0 22-18 39-41 39s-41-17-41-39c0-19 13-34 32-38v-12h-31zm40 39c-14 0-24 10-24 25s10 25 24 25 24-10 24-25-10-25-24-25z"
+            />
+
+            <path
+              class="battery-glint"
+              d="M123 202h18v139h-18zm159 8h7v72h-7z"
+            />
+          </svg>
+
+          <svg
+            class="gauntlet-construct"
+            viewBox="0 0 620 650"
+            role="img"
+            aria-label="Emerald energy construct shaped like an armored hand"
+          >
+            <defs>
+              <linearGradient
+                id="armorFill"
+                x1="0"
+                y1="0"
+                x2="1"
+                y2="1"
+              >
+                <stop
+                  stop-color="#a5ffbd"
+                  stop-opacity=".9"
+                />
+                <stop
+                  offset=".45"
+                  stop-color="#25dc71"
+                  stop-opacity=".5"
+                />
+                <stop
+                  offset="1"
+                  stop-color="#087638"
+                  stop-opacity=".12"
+                />
+              </linearGradient>
+
+              <filter id="glow">
+                <feGaussianBlur
+                  stdDeviation="8"
+                  result="blur"
+                />
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <path
+              class="construct-trail"
+              d="M70 473 171 376 215 405 288 333 322 360 398 271 432 305 501 230M85 519l97-89m-61 130 117-103m-44 124 112-101"
+            />
+
+            <path
+              class="armor-shadow"
+              d="M109 563 201 457 234 405 259 286Q266 254 290 260t19 34l-9 87 38-130q11-32 35-23t13 37l-28 119 60-145q15-30 38-17t5 39l-49 137 73-118q19-25 39-9t-2 38l-70 131q-30 57-76 94l-66 55z"
+            />
+
+            <path
+              class="armor-plate"
+              d="m136 555 77-91 36-59 26-115q3-17 15-14t9 17l-12 113 48-167q6-19 18-15t8 20l-38 171 67-163q9-17 20-10t2 23l-58 167 78-129q11-15 20-8t-2 23l-70 137q-26 50-69 86l-67 55z"
+            />
+
+            <path
+              class="armor-detail"
+              d="m211 465 51 30 37-28m-62-65 54 23m-47-70 50 23m-2-67 42 17m18 126 58 16m-38-70 54 17m-29-68 47 16"
+            />
+
+            <path
+              class="construct-spark"
+              d="m482 131 15-43 8 42 40-18-27 34 40 14-45 4 12 43-26-35-26 34 11-43-44-4 39-15-27-34z"
+            />
+          </svg>
+
+          <div class="hero-photo-card">
+            <img
+              src="assets/profile.jpg"
+              alt="Portrait of Vishwajith L K"
+              width="400"
+              height="397"
+            >
+            <span>VISHWAJITH L K / 01</span>
+          </div>
+
+          <div class="comic-sound">
+            VLK<span>!</span>
+          </div>
+
+          <div
+            class="ring-art ring-main"
+            aria-hidden="true"
+          >
+            <svg
+              class="ring-model"
+              viewBox="0 0 160 130"
+              role="presentation"
+              focusable="false"
+            >
+              <defs>
+                <linearGradient
+                  id="ringBand"
+                  x1=".15"
+                  y1=".1"
+                  x2=".85"
+                  y2=".9"
+                >
+                  <stop stop-color="#c3ff8a"/>
+                  <stop offset=".22" stop-color="#45df51"/>
+                  <stop offset=".52" stop-color="#08712f"/>
+                  <stop offset=".77" stop-color="#29b846"/>
+                  <stop offset="1" stop-color="#063d20"/>
+                </linearGradient>
+
+                <linearGradient
+                  id="ringEdge"
+                  x1="0"
+                  y1="0"
+                  x2="1"
+                  y2="1"
+                >
+                  <stop stop-color="#e1ffac"/>
+                  <stop offset=".5" stop-color="#41ce54"/>
+                  <stop offset="1" stop-color="#063719"/>
+                </linearGradient>
+
+                <radialGradient
+                  id="ringFace"
+                  cx="35%"
+                  cy="26%"
+                >
+                  <stop stop-color="#b4ff6d"/>
+                  <stop offset=".42" stop-color="#42df47"/>
+                  <stop offset="1" stop-color="#087432"/>
+                </radialGradient>
+
+                <filter
+                  id="ringGlow"
+                  x="-50%"
+                  y="-50%"
+                  width="200%"
+                  height="200%"
+                >
+                  <feGaussianBlur
+                    stdDeviation="3"
+                    result="blur"
+                  />
+                  <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+              </defs>
+
+              <path
+                class="ring-shank"
+                d="M43 44C24 50 19 68 25 86c8 25 35 39 64 34 28-5 48-26 46-49-1-14-10-25-26-31l-10 15c12 6 17 14 16 23-2 15-17 27-36 30-20 3-38-6-43-21-4-11 0-21 12-27z"
+              />
+
+              <path
+                class="ring-shank-highlight"
+                d="M31 67c-2 17 10 34 28 40m68-52c10 9 13 19 9 30"
+              />
+
+              <path
+                class="ring-shoulder"
+                d="m42 49 13-20 20 2-4 23-19 13zm58-17 21 8 9 17-23 5-13-15z"
+              />
+
+              <ellipse
+                class="ring-bezel"
+                cx="79"
+                cy="37"
+                rx="57"
+                ry="34"
+                transform="rotate(-18 79 37)"
+              />
+
+              <ellipse
+                class="ring-face"
+                cx="79"
+                cy="36"
+                rx="49"
+                ry="27"
+                transform="rotate(-18 79 36)"
+              />
+
+              <ellipse
+                class="ring-inlay"
+                cx="79"
+                cy="36"
+                rx="43"
+                ry="22"
+                transform="rotate(-18 79 36)"
+              />
+
+              <path
+                class="ring-emblem"
+                d="M54 20h51v9H85v5c14 2 24 11 24 23 0 14-12 24-29 24S51 71 51 57c0-12 10-21 24-23v-5H54zm26 23c-9 0-15 5-15 14s6 14 15 14 15-5 15-14-6-14-15-14z"
+                transform="rotate(-18 79 48)"
+              />
+
+              <path
+                class="ring-face-glint"
+                d="M39 20c11-13 31-19 49-15"
+              />
+            </svg>
+          </div>
+
+          <button
+            id="ring-trigger"
+            class="ring-trigger"
+            type="button"
+            aria-label="Activate an energy pulse"
+          >
+            <span class="trigger-ring"></span>
+            <span>LIGHT IT UP</span>
+          </button>
+        </div>
+
+        <a class="scroll-mark" href="#about">
+          <span>SCROLL TO EXPLORE</span>
+          <b>↓</b>
+        </a>
+      </section>
+
+      <section
+        class="oath-band"
+        aria-label="Green Lantern inspired oath"
+        data-reveal
+      >
+        <p class="oath-lines">
+          <span>In brightest day, In blackest night</span>
+          <span>No error shall escape my sight</span>
         </p>
+      </section>
 
-        <h1>
-          Building AI systems with <i>actual</i> substance.
-        </h1>
+      <section
+        class="capability-band"
+        aria-label="Areas of focus"
+      >
+        <div class="capability-track">
+          <span>ARTIFICIAL INTELLIGENCE</span>
+          <b>✳</b>
+          <span>SYSTEMS DESIGN</span>
+          <b>✳</b>
+          <span>BACKEND ENGINEERING</span>
+          <b>✳</b>
+          <span>MACHINE LEARNING</span>
+          <b>✳</b>
+          <span>ARTIFICIAL INTELLIGENCE</span>
+          <b>✳</b>
+          <span>SYSTEMS DESIGN</span>
+          <b>✳</b>
+          <span>BACKEND ENGINEERING</span>
+          <b>✳</b>
+          <span>MACHINE LEARNING</span>
+          <b>✳</b>
+        </div>
+      </section>
 
-        <p class="lead">
-          I'm Vishwajith - I build systems that connect models, APIs, and 
-infrastructure to solve real problems. Strong fundamentals in machine learning, applied AI 
-and system design, obsessed with reliability, and I own projects end-to-end. 
-I'm looking for an internship where I can contribute meaningfully, learn from 
-hard problems, and ship work that works reliably at scale.
-        </p>
+      <section id="about" class="brief section-pad">
+        <div class="section-index">
+          <span>01</span>
+          <i></i>
+          <span>THE BRIEF</span>
+        </div>
 
-        <div class="hero-actions">
+        <div class="brief-main" data-reveal>
+          <p class="eyebrow">A CLEAR SIGNAL THROUGH THE NOISE</p>
+
+          <h2>
+            I build systems where
+            <em>everything works together.</em>
+          </h2>
+
+          <p>
+            This means understanding how components connect—how AI models
+            integrate with APIs, where data flows through a pipeline, how
+            systems perform under load, and which trade-offs matter.
+          </p>
+
+          <p>
+            I believe in measuring model performance, building systems
+            that scale, and making informed decisions about accuracy
+            versus latency. Whether designing multi-agent orchestration,
+            optimizing RAG systems, or architecting backend infrastructure,
+            I focus on the complete system.
+          </p>
+
           <a
-            class="button"
+            class="inline-link"
             href="mailto:vishwajithkarthik10@gmail.com"
           >
-            START A CONVERSATION ↗
-          </a>
-
-          <a
-            class="quiet-link"
-            href="https://github.com/vlk-2805"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GITHUB ↗
+            LET'S BUILD SOMETHING ↗
           </a>
         </div>
-      </div>
 
-      <aside class="profile-panel">
-        <div class="photo-slot">
+        <figure class="brief-photo" data-reveal>
           <img
-            class="portrait"
-            src="assets/profile.jpg"
-            alt="Portrait of Vishwajith L K"
-            width="400"
-            height="397"
+            src="assets/intro-talk.jpg"
+            alt="Vishwajith presenting a session on graph applications at SSN"
+            loading="lazy"
           >
-          <span>
-            PHOTO<br>
-            GOES<br>
-            HERE
-          </span>
+          <figcaption>
+            <span> </span>
+          </figcaption>
+        </figure>
+      </section>
 
-          <small>PORTRAIT / 01</small>
+      <section
+        class="stats-deck"
+        aria-label="Selected achievements"
+      >
+        <div class="stats-heading">
+          <span>SELECTED ACHIEVEMENTS</span>
+          <span>2025—26</span>
         </div>
 
-        <div>
-          <p class="eyebrow">CURRENTLY</p>
+        <div class="stats-grid">
+          <article>
+            <strong>
+              <span data-count="3">3</span><sup>rd</sup>
+            </strong>
+            <p>
+              GLOBAL PLACEMENT<br>
+              MEDIAEVAL 2025
+            </p>
+          </article>
 
-          <strong>
-            Open to AI/ML + software engineering internships.
-          </strong>
+          <article>
+            <strong>
+              <span data-count="220">220</span><small>+</small>
+            </strong>
+            <p>
+              LEETCODE PROBLEMS<br>
+              SOLVED
+            </p>
+          </article>
+
+          <article>
+            <strong>
+              ₹<span data-count="2">2</span><small>L</small>
+            </strong>
+            <p>
+              RELIANCE FOUNDATION<br>
+              SCHOLARSHIP
+            </p>
+          </article>
+
+          <article>
+            <strong>
+              <span data-count="8.607" data-decimals="3">8.607</span>
+            </strong>
+            <p>
+              CURRENT CGPA<br>
+              AT SSNCE
+            </p>
+          </article>
+
+          <article>
+            <strong>
+              <span data-count="15">15</span><small>+</small>
+            </strong>
+            <p>
+              EVENTS ORGANISED<br>
+              WITH THE TEAM
+            </p>
+          </article>
         </div>
-      </aside>
+      </section>
 
-    </section>
+      <section id="work" class="work-section section-pad">
+        <div class="section-top" data-reveal>
+          <div>
+            <div class="section-index">
+              <span>02</span>
+              <i></i>
+              <span>SELECTED WORK</span>
+            </div>
 
-    <!-- ==================== STATEMENT ==================== -->
-    <section class="statement">
-      <div class="shell">
-        <span>AI ENGINEERING</span>
-        <b>·</b>
-        <span>BACKEND SYSTEMS</span>
-        <b>·</b>
-        <span>SOFTWARE DEVELOPMENT</span>
-        <b>·</b>
-        <span>MACHINE LEARNING</span>
-      </div>
-    </section>
+            <h2>
+              Selected <em>work.</em>
+            </h2>
+          </div>
 
-    <!-- ==================== ABOUT ==================== -->
-    <section class="about shell">
-      <p class="section-label">
-  01 / A QUICK INTRO
-</p>
-
-<div>
-  <h2>
-    I build systems where everything works together.
-  </h2>
-
-  <p>
-    This requires understanding how components connect—how AI models integrate with APIs,
-    where data flows through the pipeline, how systems perform under load, and which
-    trade-offs matter. 
-  </p>
-
-  <p>
-    I believe in measuring model performance, building systems that scale, and making
-    informed decisions about accuracy versus latency trade-offs. Whether designing multi-agent orchestration, optimizing RAG systems,
-    or architecting backend infrastructure, I focus on the complete system, not isolated pieces.
-  </p>
-</div>
-
-      <figure class="about-photo">
-        <img src="assets/intro-talk.jpg" alt="Vishwajith presenting a session on graph applications at SSN" loading="lazy">
-      </figure>
-    </section>
-
-    <!-- ==================== PROOF ==================== -->
-    <section class="proof">
-      <div class="shell proof-grid">
-
-        <div>
-          <strong><span data-count="3">3</span><sup>rd</sup></strong>
-          <span>
-            Global placement<br>
-            MediaEval 2025
-          </span>
-        </div>
-
-        <div>
-          <strong><span data-count="220">220</span>+</strong>
-          <span>
-            LeetCode problems<br>
-            solved
-          </span>
+          <p>Filter by focus area.</p>
         </div>
 
-        <div>
-          <strong>₹<span data-count="2">2</span>L</strong>
-          <span>
-            Reliance Foundation<br>
-            Undergraduate Scholarship
-          </span>
-        </div>
-
-        <div>
-          <strong><span data-count="8.607" data-decimals="3">8.607</span></strong>
-          <span>
-            Current CGPA<br>
-            at SSNCE
-          </span>
-        </div>
-
-        <div>
-          <strong><span data-count="15">15</span>+</strong>
-          <span>
-            Events organised<br>
-            as part of the team
-          </span>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ==================== SELECTED WORK ==================== -->
-    <section id="work" class="work shell">
-
-      <div class="section-heading">
-        <p class="section-label">
-          02 / SELECTED WORK
-        </p>
-
-        <p>
-          Projects across intelligent interfaces, databases, and vision.
-        </p>
-      </div>
-
-      <!-- Project 01 -->
-      <article class="project">
-        <p class="project-number">01</p>
-
-        <div class="project-name">
-          <p>HACKSYMMETRIC · 2026</p>
-
-          <h3>Agent-21</h3>
-
-          <span>
-            Autonomous business intelligence
-          </span>
-        </div>
-
-        <div class="project-info">
-          <p>
-            A multi-agent system that watches live delivery and revenue
-            signals, makes sense of anomalies, and helps business owners
-            respond.
-          </p>
-
-          <ul>
-            <li>Real-time event listeners and anomaly detection</li>
-            <li>PII-aware, multilingual customer agent</li>
-            <li>Executive simulation for competing action plans</li>
-          </ul>
-
-          <a
-            href="https://lnkd.in/p/gHZ9aTST"
-            target="_blank"
-            rel="noreferrer"
-          >
-            VIEW PROJECT ON LINKEDIN ↗
-          </a>
-        </div>
-      </article>
-
-      <!-- Project 02 -->
-      <article class="project">
-        <p class="project-number">02</p>
-
-        <div class="project-name">
-          <p>PERSONAL SYSTEMS PROJECT · 2026</p>
-
-          <h3>OwnDB</h3>
-
-          <span>
-            Embedded storage engine
-          </span>
-        </div>
-
-        <div class="project-info">
-          <p>
-            A disk-backed key-value store built from the ground up
-            to understand durability below the application layer.
-          </p>
-
-          <ul>
-            <li>8 KB slotted pages and LRU buffer pool</li>
-            <li>B+ tree indexing for range scans</li>
-            <li>Checksummed write-ahead logging and recovery</li>
-          </ul>
-
-          <a
-            href="https://github.com/vlk-2805/own-db"
-            target="_blank"
-            rel="noreferrer"
-          >
-            VIEW SOURCE ON GITHUB ↗
-          </a>
-        </div>
-      </article>
-
-      <!-- Project 03 -->
-      <article class="project">
-        <p class="project-number">03</p>
-
-        <div class="project-name">
-          <p>MEDIAEVAL 2025 · RESEARCH</p>
-
-          <h3>EndoVision</h3>
-
-          <span>
-            Medical visual question answering
-          </span>
-        </div>
-
-        <div class="project-info">
-          <p>
-            Fine-tuned PaliGemma 2-3B to answer questions about GI
-            endoscopy images, then took the work from competition
-            to published proceedings.
-          </p>
-
-          <ul>
-            <li>3rd place globally in Medico 2025 Task 1</li>
-            <li>
-              Benchmarked with Accuracy, ROUGE-L, BLEU-4, BERTScore
-            </li>
-            <li>
-              Published in MediaEval 2025 workshop proceedings
-            </li>
-          </ul>
-
-          <a
-            href="https://2025.multimediaeval.com/paper56.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            VIEW PUBLICATION RECORD ↗
-          </a>
-        </div>
-      </article>
-
-      <!-- Project 04 -->
-      <article class="project">
-        <p class="project-number">04</p>
-
-        <div class="project-name">
-          <p>PEC HACKS 2.0 · 2024</p>
-
-          <h3>
-            Deepfake<br>
-            Detection
-          </h3>
-
-          <span>
-            Video and live-stream detection
-          </span>
-        </div>
-
-        <div class="project-info">
-          <p>
-            A real-time deepfake detection pipeline that kept working
-            when the hackathon environment did not.
-          </p>
-
-          <ul>
-            <li>XceptionNet inference with quantization and pruning</li>
-            <li>OpenCV preprocessing and Django backend</li>
-            <li>MongoDB metadata with immutable logs</li>
-          </ul>
-
-          <a
-            href="https://github.com/vlk-2805/Real-time-deepfake-detection"
-            target="_blank"
-            rel="noreferrer"
-          >
-            VIEW SOURCE ON GITHUB ↗
-          </a>
-        </div>
-      </article>
-
-    </section>
-
-    <!-- ==================== EXPERIENCE ==================== -->
-    <section id="experience" class="experience shell">
-
-      <p class="section-label">
-        03 / EXPERIENCE
-      </p>
-
-      <article class="experience-row">
-
-        <div>
-          <p>2026</p>
-
-          <h3>
-            AI Software Engineering Intern
-          </h3>
-
-          <span>
-            DriveThruData LLP · Remote
-          </span>
-        </div>
-
-        <p>
-          Worked on document intelligence and healthcare Q&A workflows.
-          Evaluated TrOCR and Qwen2-VL; built across RAG, MCP, OCR, NER,
-          context engineering, and AI workflow automation.
-        </p>
-
-        <a
-          href="https://github.com/vlk-2805/DriveThruDataInternship"
-          target="_blank"
-          rel="noreferrer"
+        <div
+          class="filter-row"
+          role="group"
+          aria-label="Filter projects"
         >
-          INTERNSHIP WORK ↗
-        </a>
+          <button
+            class="filter-chip is-active"
+            data-filter="all"
+            aria-pressed="true"
+          >
+            OVERVIEW <span></span>
+          </button>
 
-      </article>
+          <button
+            class="filter-chip"
+            data-filter="ai"
+            aria-pressed="false"
+          >
+            AI / ML
+          </button>
 
-    </section>
+          <button
+            class="filter-chip"
+            data-filter="systems"
+            aria-pressed="false"
+          >
+            SYSTEMS
+          </button>
 
-    <!-- ==================== HACKATHONS ==================== -->
-    <section id="hackathons" class="publications hackathons shell">
-
-      <div class="section-heading">
-        <p class="section-label">
-          04 / HACKATHONS
-        </p>
-
-        <p>
-          Building fast, under pressure, with teammates.
-        </p>
-      </div>
-
-      <article>
-        <p>2026</p>
-        <div>
-          <h3>HackSymmetric · Agent-21</h3>
-          <p>48-hour agentic AI hackathon, Club Asymmetric, CIT</p>
+          <button
+            class="filter-chip"
+            data-filter="vision"
+            aria-pressed="false"
+          >
+            VISION
+          </button>
         </div>
-        <span>FINALIST</span>
-      </article>
 
-      <article>
-        <p>2025</p>
-        <div>
-          <h3>Smart India Hackathon · Top 45</h3>
-          <p>Team SayMyName · AI-powered train traffic control · SSN internal round</p>
-        </div>
-        <span>SELECTED</span>
-      </article>
-
-      <article>
-        <p>2025</p>
-        <div>
-          <h3>DevsHouse'25 · Top 65</h3>
-          <p>Team EcoSpy · browser extension against e-commerce greenwashing · VIT Chennai</p>
-        </div>
-        <span>SELECTED</span>
-      </article>
-
-      <article>
-        <p>2024</p>
-        <div>
-          <h3>PEC Hacks 2.0 · Top 50</h3>
-          <p>Real-time deepfake detection · 800+ teams registered</p>
-        </div>
-        <span>FINALIST</span>
-      </article>
-
-    </section>
-
-    <!-- ==================== EDUCATION + ACTIVITIES ==================== -->
-    <section class="split-sections">
-
-      <div class="shell">
-
-        <!-- Education -->
-        <section>
-          <p class="section-label">
-            05 / EDUCATION
-          </p>
-
-          <div class="flip-card" id="edu-card" role="button" tabindex="0" aria-pressed="false" aria-label="Education card. Press to flip and see semester GPAs.">
-            <div class="flip-inner">
-
-              <div class="flip-face flip-front">
-                <h2>
-                  Integrated M.Tech<br>
-                  in Computer Science<br>
-                  &amp; Engineering
-                </h2>
-
-                <p class="subline">
-                  Sri Sivasubramaniya Nadar College of Engineering, Chennai<br>
-                  2023 - 2028 · CGPA 8.607 / 10
-                </p>
-
-                <span class="flip-hint">CLICK TO SEE GPA BY SEMESTER ↻</span>
+        <div class="project-grid">
+          <article
+            class="project-card project-wide"
+            data-category="ai"
+            data-reveal
+          >
+            <div class="project-visual visual-agent">
+              <div class="visual-label">
+                AGENT-21 / MULTI-AGENT SIGNAL RESPONSE
               </div>
 
-              <div class="flip-face flip-back" aria-hidden="true">
-                <p class="eyebrow">GPA BY SEMESTER</p>
+              <div class="sentinel-construct">
+                <i class="sentinel-antenna"></i>
 
-                <ul class="gpa-list">
-              <li style="--v:83.5%"><span>SEM 1</span><i></i><b>8.35</b></li>
-              <li style="--v:82.0%"><span>SEM 2</span><i></i><b>8.2</b></li>
-              <li style="--v:89.05%"><span>SEM 3</span><i></i><b>8.905</b></li>
-              <li style="--v:83.69999999999999%"><span>SEM 4</span><i></i><b>8.37</b></li>
-              <li style="--v:89.17%"><span>SEM 5</span><i></i><b>8.917</b></li>
-              <li style="--v:88.26%"><span>SEM 6</span><i></i><b>8.826</b></li>
-                </ul>
-
-                <div class="gpa-overall">
-                  <span>OVERALL CGPA</span>
-                  <strong>8.607</strong>
+                <div class="sentinel-head">
+                  <i></i>
+                  <i></i>
+                  <b>21</b>
                 </div>
 
-                <span class="flip-hint">CLICK TO FLIP BACK ↻</span>
+                <div class="sentinel-body">
+                  <i></i>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="sentinel-arm arm-left"></div>
+                <div class="sentinel-arm arm-right"></div>
               </div>
 
+              <div class="agent-orbit">
+                <b>AI</b>
+              </div>
+
+              <div class="agent-node node-a">
+                LIVE<br>
+                ORDERS
+              </div>
+
+              <div class="agent-node node-b">
+                ANOMALY<br>
+                ALERT
+              </div>
+
+              <div class="agent-node node-c">
+                NEXT<br>
+                ACTION
+              </div>
+
+              <div class="sentinel-beam"></div>
+            </div>
+
+            <div class="project-meta">
+              <span>HACKSYMMETRIC · 2026</span>
+              <span>01 / 04</span>
+            </div>
+
+            <h3>Agent-21</h3>
+
+            <p>
+              A multi-agent system that watches live delivery and revenue
+              signals, makes sense of anomalies, and helps business owners
+              respond.
+            </p>
+
+            <ul class="project-points">
+              <li>Real-time event listeners and anomaly detection</li>
+              <li>PII-aware multilingual customer agent</li>
+              <li>Executive simulation for competing action plans</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>MULTI-AGENT</span>
+              <span>REAL-TIME</span>
+              <span>BUSINESS AI</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://lnkd.in/p/gHZ9aTST"
+              target="_blank"
+              rel="noreferrer"
+            >
+              VIEW PROJECT <b>↗</b>
+            </a>
+          </article>
+
+          <article
+            class="project-card"
+            data-category="systems"
+            data-reveal
+          >
+            <div class="project-visual visual-db">
+              <div class="visual-label">
+                OWNDB / DURABLE STORAGE VAULT
+              </div>
+
+              <div class="vault-construct">
+                <div class="vault-outer">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <b></b>
+                </div>
+
+                <div class="vault-door">
+                  <span class="vault-spoke spoke-a"></span>
+                  <span class="vault-spoke spoke-b"></span>
+                  <span class="vault-key">K/V</span>
+                </div>
+
+                <div class="vault-pages">
+                  <i>08 KB</i>
+                  <i>PAGE</i>
+                  <i>WAL</i>
+                </div>
+              </div>
+
+              <div class="vault-scan"></div>
+            </div>
+
+            <div class="project-meta">
+              <span>PERSONAL SYSTEMS · 2026</span>
+              <span>02 / 04</span>
+            </div>
+
+            <h3>OwnDB</h3>
+
+            <p>
+              A disk-backed key-value store built from the ground up to
+              understand durability below the application layer.
+            </p>
+
+            <ul class="project-points">
+              <li>8 KB slotted pages and LRU buffer pool</li>
+              <li>B+ tree indexing for range scans</li>
+              <li>Checksummed WAL and recovery</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>STORAGE ENGINE</span>
+              <span>B+ TREE</span>
+              <span>WAL</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/vlk-2805/own-db"
+              target="_blank"
+              rel="noreferrer"
+            >
+              VIEW SOURCE <b>↗</b>
+            </a>
+          </article>
+
+          <article
+            class="project-card"
+            data-category="ai vision"
+            data-reveal
+          >
+            <div class="project-visual visual-vision">
+              <div class="visual-label">
+                ENDOVISION / ENDOSCOPY IMAGE ANALYSIS
+              </div>
+
+              <div class="endoscope-construct">
+                <div class="scope-handle"></div>
+                <div class="scope-tube"></div>
+
+                <div class="scope-lens">
+                  <i></i>
+                  <b></b>
+                </div>
+
+                <div class="scope-target">
+                  <i></i>
+                  <i></i>
+                  <span>
+                    REGION<br>
+                    OF INTEREST
+                  </span>
+                </div>
+
+                <div class="scope-beam"></div>
+
+                <div class="vision-readout">
+                  PALIGEMMA<br>
+                  2-3B
+                </div>
+              </div>
+            </div>
+
+            <div class="project-meta">
+              <span>MEDIAEVAL · 2025</span>
+              <span>03 / 04</span>
+            </div>
+
+            <h3>EndoVision</h3>
+
+            <p>
+              Fine-tuned PaliGemma 2-3B for GI endoscopy questions,
+              taking the work from competition to published proceedings.
+            </p>
+
+            <ul class="project-points">
+              <li>3rd place globally in Medico 2025 Task 1</li>
+              <li>Benchmarked with Accuracy, ROUGE-L, BLEU-4, BERTScore</li>
+              <li>Published in MediaEval 2025 workshop proceedings</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>COMPUTER VISION</span>
+              <span>RESEARCH</span>
+              <span>MEDICAL AI</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Vishwajith+l+k"
+              target="_blank"
+              rel="noreferrer"
+            >
+              PUBLICATION RECORD <b>↗</b>
+            </a>
+          </article>
+
+          <article
+            class="project-card project-wide"
+            data-category="ai vision"
+            data-reveal
+          >
+            <div class="project-visual visual-deepfake">
+              <div class="visual-label">
+                DEEPFAKE DETECTION / AUTHENTICITY SHIELD
+              </div>
+
+              <div class="identity-construct">
+                <div class="identity-face face-real">
+                  <i></i>
+                  <b>REAL</b>
+                </div>
+
+                <div class="identity-face face-fake">
+                  <i></i>
+                  <b>ALTERED</b>
+                </div>
+
+                <div class="identity-scan"></div>
+
+                <div class="identity-shield">
+                  <i>✓</i>
+                </div>
+
+                <div class="identity-meter">
+                  <span>FRAME ANALYSIS</span>
+                  <b>VERIFYING</b>
+                  <i></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-meta">
+              <span>PEC HACKS 2.0 · 2024</span>
+              <span>04 / 04</span>
+            </div>
+
+            <h3>Deepfake Detection</h3>
+
+            <p>
+              A real-time deepfake detection pipeline that kept working
+              when the hackathon environment did not.
+            </p>
+
+            <ul class="project-points">
+              <li>XceptionNet inference with quantization and pruning</li>
+              <li>OpenCV preprocessing and Django backend</li>
+              <li>MongoDB metadata with immutable logs</li>
+            </ul>
+
+            <div class="tag-row">
+              <span>VIDEO AI</span>
+              <span>OPENCV</span>
+              <span>DJANGO</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/vlk-2805/Real-time-deepfake-detection"
+              target="_blank"
+              rel="noreferrer"
+            >
+              VIEW SOURCE <b>↗</b>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="experience"
+        class="experience-section section-pad"
+      >
+        <div class="experience-orb" aria-hidden="true"></div>
+
+        <div class="section-index">
+          <span>03</span>
+          <i></i>
+          <span>EXPERIENCE</span>
+        </div>
+
+        <div class="experience-layout">
+          <div>
+            <p class="eyebrow">EXPERIENCE / 2026</p>
+
+            <h2>
+              Built under<br>
+              <em>real conditions.</em>
+            </h2>
+
+            <div class="timeline-mark">
+              <span>01</span>
+              <i></i>
+              <span>NOW</span>
             </div>
           </div>
-        </section>
 
-        <!-- Activities -->
-        <section>
-          <p class="section-label">
-            06 / ACTIVITIES
+          <article class="experience-card" data-reveal>
+            <div class="experience-card-top">
+              <span>2026</span>
+              <span>REMOTE · INDIA</span>
+            </div>
+
+            <h3>AI Software Engineering Intern</h3>
+
+            <p class="company">DriveThruData LLP</p>
+
+            <p>
+              Worked on document intelligence and healthcare Q&A
+              workflows. Evaluated TrOCR and Qwen2-VL; built across RAG,
+              MCP, OCR, NER, context engineering, and AI workflow automation.
+            </p>
+
+            <a
+              class="project-link"
+              href="https://github.com/vlk-2805/DriveThruDataInternship"
+              target="_blank"
+              rel="noreferrer"
+            >
+              INTERNSHIP WORK <b>↗</b>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="records"
+        class="records-section section-pad"
+      >
+        <div class="section-top">
+          <div>
+            <div class="section-index">
+              <span>04</span>
+              <i></i>
+              <span>HACKATHONS</span>
+            </div>
+
+            <h2>
+              Compete &amp; <em>build.</em>
+            </h2>
+          </div>
+
+          <p>Building fast under pressure, with teammates.</p>
+        </div>
+
+        <div class="record-columns">
+          <div class="record-panel">
+            <h3>Competition record</h3>
+
+            <article>
+              <span>2026</span>
+              <div>
+                <b>HackSymmetric · Agent-21</b>
+                <p>48-hour agentic AI hackathon · CIT</p>
+              </div>
+              <i>FINALIST</i>
+            </article>
+
+            <article>
+              <span>2025</span>
+              <div>
+                <b>Smart India Hackathon · Top 45</b>
+                <p>AI-powered train traffic control · SSN internal round</p>
+              </div>
+              <i>SELECTED</i>
+            </article>
+
+            <article>
+              <span>2025</span>
+              <div>
+                <b>DevsHouse'25 · Top 65</b>
+                <p>
+                  Browser extension against e-commerce greenwashing ·
+                  VIT Chennai
+                </p>
+              </div>
+              <i>SELECTED</i>
+            </article>
+
+            <article>
+              <span>2024</span>
+              <div>
+                <b>PEC Hacks 2.0 · Top 50</b>
+                <p>Real-time deepfake detection · 800+ teams registered</p>
+              </div>
+              <i>FINALIST</i>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="publications"
+        class="publication-section section-pad"
+      >
+        <div class="section-top">
+          <div>
+            <div class="section-index">
+              <span>05</span>
+              <i></i>
+              <span>PUBLICATIONS</span>
+            </div>
+
+            <h2>
+              Research made <em>real.</em>
+            </h2>
+          </div>
+
+          <p>
+            One paper from model experiments through to published proceedings.
           </p>
+        </div>
 
-          <div class="activity">
-            <span>2026 - NOW</span>
+        <article class="publication-card">
+          <span>MEDIAEVAL 2025 / WORKSHOP PROCEEDINGS</span>
 
-            <div>
-              <h3>Secretary</h3>
-              <p>SSN AI Student Chapter</p>
-            </div>
-          </div>
-
-          <div class="activity">
-            <span>2025 - 2026</span>
-
-            <div>
-              <h3>Core Committee, AI/ML Vertical</h3>
-              <p>SSN Coding Club</p>
-            </div>
-          </div>
-
-          <div class="activity">
-            <span>2025 - 2026</span>
-
-            <div>
-              <h3>Public Relations Head</h3>
-              <p>SSN AI Student Chapter</p>
-            </div>
-          </div>
-
-        </section>
-
-      </div>
-    </section>
-
-    <!-- ==================== PUBLICATIONS ==================== -->
-    <section id="publications" class="publications shell">
-
-      <div class="section-heading">
-        <p class="section-label">
-          07 / PUBLICATIONS
-        </p>
-
-        <p>
-          Research that made it beyond the experiment.
-        </p>
-      </div>
-
-      <article>
-        <p>2025</p>
-
-        <div>
           <h3>
             Visual Question Answering for Gastrointestinal Imaging
           </h3>
 
           <p>
-            MediaEval 2025 Workshop Proceedings · EndoVision team
+            EndoVision team · Medical visual question answering
           </p>
+
+          <a
+            href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Vishwajith+l+k"
+            target="_blank"
+            rel="noreferrer"
+          >
+            VIEW PUBLICATION RECORD <b>↗</b>
+          </a>
+
+          <div
+            class="publication-construct"
+            aria-hidden="true"
+          >
+            <i></i>
+            <i></i>
+            <b>VQA</b>
+          </div>
+        </article>
+      </section>
+
+      <section
+        id="education"
+        class="education-section section-pad"
+      >
+        <div class="section-top">
+          <div>
+            <div class="section-index">
+              <span>06</span>
+              <i></i>
+              <span>EDUCATION</span>
+            </div>
+
+            <h2>
+              Learning, <em>in progress.</em>
+            </h2>
+          </div>
+
+          <p>Integrated M.Tech · 2023–2028</p>
         </div>
 
-        <a
-          href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Vishwajith+l+k"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GO TO RECORD ↗
-        </a>
-      </article>
+        <div class="holo-stage">
+          <div class="holo-platform">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
 
-    </section>
+          <div class="holo-scanlines"></div>
 
-    <!-- ==================== GALLERY ==================== -->
-    <section id="gallery" class="gallery">
+          <div
+            class="edu-widget"
+            id="edu-card"
+            role="button"
+            tabindex="0"
+            aria-pressed="false"
+            aria-label="Education hologram. Press to flip and see semester GPAs."
+          >
+            <div class="edu-card-inner">
+              <div class="edu-front">
+                <span>
+                  SSNCE / COMPUTER SCIENCE &amp; ENGINEERING
+                </span>
 
-      <div class="shell">
-        <div class="section-heading">
-          <p class="section-label">
-            08 / GALLERY
-          </p>
+                <h3>
+                  Integrated<br>
+                  M.Tech
+                </h3>
+
+                <p>
+                  Sri Sivasubramaniya Nadar College of Engineering, Chennai
+                </p>
+
+                <div class="holo-result">
+                  <small>CURRENT CGPA</small>
+                  <strong>8.607 <i>/ 10</i></strong>
+                </div>
+
+                <b>
+                  FLIP FOR SEMESTER GPA <i>↻</i>
+                </b>
+              </div>
+
+              <div class="edu-back" aria-hidden="true">
+                <span>SEMESTER GPA / 2023–2026</span>
+
+                <ul>
+                  <li>
+                    <span>SEM 1</span>
+                    <i style="--v:83.5%"></i>
+                    <b>8.35</b>
+                  </li>
+                  <li>
+                    <span>SEM 2</span>
+                    <i style="--v:82%"></i>
+                    <b>8.20</b>
+                  </li>
+                  <li>
+                    <span>SEM 3</span>
+                    <i style="--v:89.05%"></i>
+                    <b>8.905</b>
+                  </li>
+                  <li>
+                    <span>SEM 4</span>
+                    <i style="--v:83.7%"></i>
+                    <b>8.37</b>
+                  </li>
+                  <li>
+                    <span>SEM 5</span>
+                    <i style="--v:89.17%"></i>
+                    <b>8.917</b>
+                  </li>
+                  <li>
+                    <span>SEM 6</span>
+                    <i style="--v:88.26%"></i>
+                    <b>8.826</b>
+                  </li>
+                </ul>
+
+                <b>
+                  FLIP BACK <i>↻</i>
+                </b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="activities-section section-pad">
+        <div class="activities-heading">
+          <div class="section-index">
+            <span>07</span>
+            <i></i>
+            <span>LEADERSHIP &amp; ACTIVITIES</span>
+          </div>
+
+          <h2>
+            Leading with <em>curiosity.</em>
+          </h2>
+        </div>
+
+        <div class="activity-list">
+          <article>
+            <span>2026 — NOW</span>
+            <b>Secretary</b>
+            <p>SSN AI Student Chapter</p>
+            <i>01</i>
+          </article>
+
+          <article>
+            <span>2025 — 2026</span>
+            <b>Core Committee, AI/ML Vertical</b>
+            <p>SSN Coding Club</p>
+            <i>02</i>
+          </article>
+
+          <article>
+            <span>2025 — 2026</span>
+            <b>Public Relations Head</b>
+            <p>SSN AI Student Chapter</p>
+            <i>03</i>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="gallery"
+        class="gallery-section section-pad"
+      >
+        <div class="section-top">
+          <div>
+            <div class="section-index">
+              <span>08</span>
+              <i></i>
+              <span>GALLERY</span>
+            </div>
+
+            <h2>
+              Out in the <em>world.</em>
+            </h2>
+          </div>
 
           <p>
-            Moments from competitions, internships and hackathons.
+            Competitions, teams, talks, and the moments between.
           </p>
         </div>
-      </div>
 
-      <div class="marquee">
-        <div class="marquee-track">
-          <figure><img src="assets/gallery/01.jpg" alt="Receiving the internship completion letter"></figure>
-          <figure><img src="assets/gallery/03.jpg" alt="Audience at a session"></figure>
-          <figure><img src="assets/gallery/05.jpg" alt="Working at a hackathon"></figure>
-          <figure><img src="assets/gallery/07.jpg" alt="Team group photo at an event"></figure>
-          <figure><img src="assets/gallery/01.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/03.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/05.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/07.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/01.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/03.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/05.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/07.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/01.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/03.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/05.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/07.jpg" alt=""></figure>
+        <div class="gallery-track">
+          <figure>
+            <img
+              src="assets/gallery/01.jpg"
+              alt="Receiving the internship completion letter"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/03.jpg"
+              alt="Secretary of SSN-AISC"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/05.jpg"
+              alt="Working at a hackathon"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/07.jpg"
+              alt="Team group photo at an event"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/02.jpg"
+              alt="DevsHouse GDG photo booth with teammates"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/04.jpg"
+              alt="Team at PEC Hacks 2.0"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/06.jpg"
+              alt="Group photo with students"
+              loading="lazy"
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="assets/gallery/08.jpg"
+              alt="Team coding at a hackathon"
+              loading="lazy"
+            >
+          </figure>
         </div>
-      </div>
 
-      <div class="marquee reverse">
-        <div class="marquee-track">
-          <figure><img src="assets/gallery/02.jpg" alt="DevsHouse GDG photo booth with teammates"></figure>
-          <figure><img src="assets/gallery/04.jpg" alt="Team at PEC Hacks 2.0"></figure>
-          <figure><img src="assets/gallery/06.jpg" alt="Group photo with students"></figure>
-          <figure><img src="assets/gallery/08.jpg" alt="Team coding at a hackathon"></figure>
-          <figure><img src="assets/gallery/02.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/04.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/06.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/08.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/02.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/04.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/06.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/08.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/02.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/04.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/06.jpg" alt=""></figure>
-          <figure><img src="assets/gallery/08.jpg" alt=""></figure>
+        <p class="gallery-hint">
+          DRAG OR SCROLL TO EXPLORE <span>↔</span>
+        </p>
+      </section>
+
+      <section class="cert-section section-pad">
+        <div class="section-top">
+          <div>
+            <div class="section-index">
+              <span>09</span>
+              <i></i>
+              <span>CERTIFICATIONS</span>
+            </div>
+
+            <h2>
+              Earned <em>certifications.</em>
+            </h2>
+          </div>
+
+          <p>
+            Proof of focused study across AI, security, and engineering.
+          </p>
         </div>
-      </div>
 
-    </section>
+        <div class="cert-grid">
+          <article>
+            <span>2025 / NPTEL</span>
+            <h3>Deep Learning</h3>
+            <p>IIT Ropar · Gold Elite · 90% · Top 5%</p>
+            <img
+              src="assets/certificates/deep-learning-nptel.jpg"
+              alt="Deep Learning certificate"
+              loading="lazy"
+            >
+          </article>
 
-    <!-- ==================== CERTIFICATIONS ==================== -->
-    <section class="certifications">
+          <article>
+            <span>2025 / NPTEL</span>
+            <h3>Practical Cybersecurity</h3>
+            <p>IIT Kanpur · Gold Elite · 90%</p>
+            <img
+              src="assets/certificates/practical-cybersecurity-nptel.jpg"
+              alt="Practical Cybersecurity certificate"
+              loading="lazy"
+            >
+          </article>
 
-      <div class="shell">
+          <article>
+            <span>2025 / CDAC</span>
+            <h3>AI/ML using Python</h3>
+            <p>CDAC Kolkata · 72-hour online course</p>
+            <img
+              src="assets/certificates/aiml-python-cdac.jpg"
+              alt="AI/ML using Python certificate"
+              loading="lazy"
+            >
+          </article>
 
-        <p class="section-label">
-          09 / CERTIFICATIONS
+          <article>
+            <span>2026 / NPTEL</span>
+            <h3>Affective Computing</h3>
+            <p>IIT Madras · Gold Elite · 90%</p>
+            <img
+              src="assets/certificates/affective-computing-nptel.jpg"
+              alt="Affective Computing certificate"
+              loading="lazy"
+            >
+          </article>
+
+          <article>
+            <span>2026 / CIT</span>
+            <h3>HackSymmetric '26</h3>
+            <p>48-hour national hackathon · Participation</p>
+            <img
+              src="assets/certificates/hacksymmetric-participation.jpg"
+              alt="HackSymmetric '26 certificate"
+              loading="lazy"
+            >
+          </article>
+
+          <article>
+            <span>2024 / SSN</span>
+            <h3>Mobile App Development using Flutter</h3>
+            <p>20-hour value-added course</p>
+            <img
+              src="assets/certificates/flutter-ssn.jpg"
+              alt="Mobile App Development using Flutter certificate"
+              loading="lazy"
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="contact-section">
+      <div class="contact-grid"></div>
+      <div class="contact-orbit"></div>
+
+      <div class="contact-content">
+        <div class="section-index">
+          <span>10</span>
+          <i></i>
+          <span>CONTACT</span>
+        </div>
+
+        <p class="eyebrow">
+          GOOD WORK STARTS WITH A CONVERSATION
         </p>
 
-        <div class="cert-list">
+        <h2>
+          Let's make<br>
+          <em>something matter.</em>
+        </h2>
 
-          <article>
-            <span>2025</span>
+        <a
+          class="contact-email"
+          href="mailto:vishwajithkarthik10@gmail.com"
+        >
+          vishwajithkarthik10@gmail.com <span>↗</span>
+        </a>
 
-            <h3>
-              Deep Learning
-            </h3>
+        <div class="footer-bottom">
+          <span>
+            © <span id="year"></span> VISHWAJITH L K
+          </span>
 
-            <p>
-              IIT Ropar, NPTEL<br>
-              Gold Elite · 90% · Top 5%
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/deep-learning-nptel.jpg" alt="Deep Learning certificate" loading="lazy">
-            </div>
-          </article>
+          <span>CHENNAI, INDIA</span>
 
-          <article>
-            <span>2025</span>
+          <span>
+            <a
+              href="https://github.com/vlk-2805"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GITHUB
+            </a>
 
-            <h3>
-              Practical Cybersecurity
-            </h3>
-
-            <p>
-              IIT Kanpur, NPTEL<br>
-              Gold Elite · 90%
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/practical-cybersecurity-nptel.jpg" alt="Practical Cybersecurity certificate" loading="lazy">
-            </div>
-          </article>
-
-          <article>
-            <span>2025</span>
-
-            <h3>
-              AI/ML using Python
-            </h3>
-
-            <p>
-              CDAC Kolkata<br>
-              72-hour online course
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/aiml-python-cdac.jpg" alt="AI/ML using Python certificate" loading="lazy">
-            </div>
-          </article>
-
-          <article>
-            <span>2026</span>
-            <h3>Affective Computing</h3>
-            <p>
-              IIT Madras, NPTEL (IIIT Delhi)<br>
-              Elite · 90%
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/affective-computing-nptel.jpg" alt="Affective Computing certificate" loading="lazy">
-            </div>
-          </article>
-
-          <article>
-            <span>2026</span>
-            <h3>HackSymmetric '26</h3>
-            <p>
-              Chennai Institute of Technology<br>
-              Participation · 48-hour national hackathon
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/hacksymmetric-participation.jpg" alt="HackSymmetric '26 certificate" loading="lazy">
-            </div>
-          </article>
-
-          <article>
-            <span>2024</span>
-            <h3>Mobile App Development using Flutter</h3>
-            <p>
-              SSN College of Engineering<br>
-              20-hour value-added course
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/flutter-ssn.jpg" alt="Mobile App Development using Flutter certificate" loading="lazy">
-            </div>
-          </article>
-
-          <article>
-            <span>2024</span>
-            <h3>Tata Crucible Campus Quiz</h3>
-            <p>
-              Tata Group<br>
-              Participation
-            </p>
-            <div class="cert-embed">
-              <img src="assets/certificates/tata-crucible-quiz-2024.jpg" alt="Tata Crucible Campus Quiz certificate" loading="lazy">
-            </div>
-          </article>
-
+            <a
+              href="https://www.linkedin.com/in/vishwajith-l-k-8471041b4/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LINKEDIN
+            </a>
+          </span>
         </div>
       </div>
 
-    </section>
-
-  </main>
-
-  <!-- ==================== FOOTER ==================== -->
-  <footer id="contact">
-
-    <div class="shell">
-
-      <p class="section-label">
-        10 / LET'S TALK
-      </p>
-
-      <h2>
-        Looking for an intern<br>
-        who likes to build?
-      </h2>
-
-      <a
-        class="email"
-        href="mailto:vishwajithkarthik10@gmail.com"
-      >
-        vishwajithkarthik10@gmail.com ↗
-      </a>
-
-      <div class="footer-line">
-        <span>
-          © <span id="year"></span> VISHWAJITH L K
-        </span>
-
-        <span>
-          CHENNAI, INDIA
-        </span>
-
-        <span>
-          <a href="https://github.com/vlk-2805">
-            GITHUB
-          </a>
-          /
-          <a href="https://www.linkedin.com/in/vishwajith-l-k-8471041b4/">
-            LINKEDIN
-          </a>
-        </span>
+      <div class="footer-beacon" aria-hidden="true">
+        <i></i>
       </div>
+    </footer>
 
+    <div class="lightbox" id="lightbox" hidden>
+      <button type="button" aria-label="Close image">×</button>
+      <img alt="">
+      <p></p>
     </div>
 
-  </footer>
+    <div class="energy-flash" aria-hidden="true"></div>
 
-  <div class="lightbox" id="lightbox" hidden>
-    <button type="button" aria-label="Close">×</button>
-    <img alt="">
-  </div>
-
-  <script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
